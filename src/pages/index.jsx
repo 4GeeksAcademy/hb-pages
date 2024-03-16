@@ -1,10 +1,9 @@
-import { Container } from "react-bootstrap";
-import { Jumbotron } from "@/components/Jumbotron";
+import {GetProfiles} from "@/services/getProfiles";
+import {useEffect, useState} from "react";
+import { Container } from "react-bootstrap"
+import React from "react";
 
-export default function Home() {
-  return (
-    <Container>
-      <Jumbotron />
-    </Container>
-  );
+
+export default function ProfilesPage()  {
+    return <Container>Profiles ###</Container>
 }
